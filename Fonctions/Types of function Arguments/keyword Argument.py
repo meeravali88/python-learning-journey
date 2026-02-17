@@ -5,8 +5,8 @@ def student(fname, lname):
     print(fname, lname)
     
 # We can call the function with keyword arguments.
-student(fname='Geeks', lname='Practice')
-student(lname='Practice', fname='Geeks')
+student(fname='meera', lname='Practice')
+student(lname='Practice', fname='meera')
 
 # output will be same for both the function calls.
 # becuase we are using keyword arguments, the order of the arguments does not matter.
